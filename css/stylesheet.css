@@ -4,14 +4,17 @@ html{
 
 .cadettext{
     color: #31748F;
+    font-family: monsterrat,sans-serif
 }
 
-.buttontext{
+.buttonbasics{
     color: #FFFFFF;
+    font-family: monsterrat,sans-serif
 }
 
 .placeholdertext{
     color: #74716e;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .buttonc1{
