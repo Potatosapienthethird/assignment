@@ -2,8 +2,27 @@ html{
     background-color: #faf4ed;
 }
 
+body{
+    min-width:100vh
+}
+
+.bodyflex{
+    display: flex;
+    flex-direction: row;
+}
+
+.Notesflex{
+    padding: 0, 100%;
+    max-height: none;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
 .betterbg{
     background-color: #f2e9de;
+    max-height: none;
+    align-self: stretch;
+    min-height:100vh
 }
 
 .cadettext{
