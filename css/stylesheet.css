@@ -2,6 +2,14 @@ html{
     background-color: #faf4ed;
 }
 
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 4px solid #77a7eb;
+}
+
 .bodyflex{
     display: flex;
     flex-direction: row;
