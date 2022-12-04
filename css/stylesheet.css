@@ -2,17 +2,13 @@ html{
     background-color: #faf4ed;
 }
 
-body{
-    min-width:100vh
-}
-
 .bodyflex{
     display: flex;
     flex-direction: row;
 }
 
 .Notesflex{
-    padding: 0, 100%;
+    padding: 1em;
     max-height: none;
     flex-shrink: 0;
     align-self: stretch;
@@ -20,14 +16,46 @@ body{
 
 .betterbg{
     background-color: #f2e9de;
+    display: flex;
+    flex-direction: column;
     max-height: none;
+    padding: 1em;
     align-self: stretch;
-    min-height:100vh
+    flex-shrink: 1;
+    min-width: 180vh;
+    min-height: 100vh
 }
 
 .cadettext{
     color: #31748F;
     font-family: monsterrat,sans-serif
+}
+
+.centerchild{
+    align-self: center;
+}
+
+.centeradult{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.endchild{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.paddingchild{
+    padding-right: 1em;
+}
+
+.spacebetweenchild{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .buttonbasics{
